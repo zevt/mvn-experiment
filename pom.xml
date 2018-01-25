@@ -92,7 +92,7 @@
             <!--Link Guide-->
             <!--https://stackoverflow.com/questions/574594/how-can-i-create-an-executable-jar-with-dependencies-using-maven-->
             <!--use the dependency-plugin to generate all dependencies in a separate directory before the package phase and then include that in the classpath of the manifest:-->
-
+            <!--http://www.baeldung.com/properties-with-spring-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
